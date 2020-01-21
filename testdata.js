@@ -306,7 +306,19 @@ module.exports = {
   ],
   BaskinRobbins: [
     {
-
+      name: 'KT 멤버십 파인트 30% OFF',
+      target: 'kt멤버십 고객',
+      link: 'https://www.baskinrobbins.co.kr/6event/view.php?flag=&seq=6123',
+      imgUrl: 'https://www.baskinrobbins.co.kr/upload/event/image/1626057556.png',
+      normalPrice:'8,200원',
+      discountPrice: '5,700원'
+    },
+    {
+      name: '1회용 컵 사용 줄이기 안내',
+      target: '개인 텀블러 사용자',
+      link: 'https://www.baskinrobbins.co.kr/event/view.php?flag=&seq=3302',
+      imgUrl: 'https://www.baskinrobbins.co.kr/upload/event/image/1578277305.png',
+      difference: '300원'
     }
   ]
 }

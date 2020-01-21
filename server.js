@@ -18,7 +18,7 @@ const init = async () => {
           throw Boom.notFound()
         }
 
-        return v
+        return { [request.params.name]: v }
       }
     })
 
