@@ -166,65 +166,64 @@ module.exports = {
       benefits: {
         weekday: {
           alldayPass: {
-            teen: {
-              normalPrice: '52,000원',
-              discountPrice: '33,000원'
-            },
-            adult: {
-              normalPrice: '59,000원',
-              discountPrice: '29,000원'
-            },
-            kid: {
-              normalPrice: '47,000원',
-              discountPrice: '26,000원'
-            },
+
+              teenNormalPrice: '52,000원',
+              teenDiscountPrice: '33,000원',
+
+
+              adultNormalPrice: '59,000원',
+              adultDiscountPrice: '29,000원',
+
+
+              kidNormalPrice: '47,000원',
+              kidDiscountPrice: '26,000원'
+            ,
             remark: '평일(월 ~ 금) 사용\n설날연휴(1/1, 1/24~27) 제외'
           },
           nightPass: {
-            teen: {
-              normalPrice: '42,000원',
-              discountPrice: '26,500원'
-            },
-            adult: {
-              normalPrice: '48,000원',
-              discountPrice: '23,500원'
-            },
-            kid: {
-              normalPrice: '36,000원',
-              discountPrice: '20,000원'
-            },
+
+              teenNormalPrice: '42,000원',
+              teenDiscountPrice: '26,500원',
+
+
+              adultNormalPrce: '48,000원',
+              adultDiscountPrice: '23,500원',
+
+
+              kidNormalPrice: '36,000원',
+              kidDiscountPrice: '20,000원',
+
             remark: '평일(월 ~ 금) 사용\n설날연휴(1/1, 1/24~27) 제외'
           }
         },
         weekend: {
           alldayPass: {
-            teen: {
-              normalPrice: '52,000원',
-              discountPrice: '35,000원'
-            },
-            adult: {
-              normalPrice: '59,000원',
-              discountPrice: '30,500원'
-            },
-            kid: {
-              normalPrice: '47,000원',
-              discountPrice: '27,500원'
-            },
+
+              teenNormalPrice: '52,000원',
+              teenDiscountPrice: '35,000원',
+
+
+              adultNormalPrice: '59,000원',
+              adultDiscountPrice: '30,500원',
+
+
+              kidNormalPrice: '47,000원',
+              kidDiscountPrice: '27,500원',
             remark: '주말(토 ~ 일) 사용\n설날연휴(1/1, 1/24~27) 포함'
           },
           nightPass: {
-            teen: {
-              normalPrice: '42,000원',
-              discountPrice: '28,000원'
-            },
-            adult: {
-              normalPrice: '48,000원',
-              discountPrice: '24,500원'
-            },
-            kid: {
-              normalPrice: '36,000원',
-              discountPrice: '21,000원'
-            },
+
+              teenNormalPrice: '42,000원',
+              teenDiscountPrice: '28,000원',
+
+
+              adultNormalPrice: '48,000원',
+              adultDiscountPrice: '24,500원',
+
+
+              kidNormalPrice: '36,000원',
+              kidDiscountPrice: '21,000원',
+
             remark: '주말(토 ~ 일) 사용\n설날연휴(1/1, 1/24~27) 포함'
           }
         }
